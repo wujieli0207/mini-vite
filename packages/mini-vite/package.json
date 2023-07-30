@@ -8,6 +8,9 @@
     "build": "tsup --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "mini-vite": "bin/mini-vite"
+  },
   "keywords": [],
   "author": "wujieli",
   "license": "ISC",
