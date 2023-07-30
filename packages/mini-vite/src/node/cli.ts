@@ -1,4 +1,5 @@
 import cac from 'cac'
+import { startDevServer } from './server'
 
 const cli = cac()
 
@@ -7,7 +8,7 @@ cli
   .alias('serve')
   .alias('dev')
   .action(async () => {
-    console.log('start dev server')
+    startDevServer()
   })
 
 cli.help()
